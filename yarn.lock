@@ -8693,6 +8693,14 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+raw-loader@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/raw-loader/-/raw-loader-4.0.0.tgz#d639c40fb9d72b5c7f8abc1fb2ddb25b29d3d540"
+  integrity sha512-iINUOYvl1cGEmfoaLjnZXt4bKfT2LJnZZib5N/LLyAphC+Dd11vNP9CNVb38j+SAJpFI1uo8j9frmih53ASy7Q==
+  dependencies:
+    loader-utils "^1.2.3"
+    schema-utils "^2.5.0"
+
 react-app-polyfill@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-1.0.6.tgz#890f8d7f2842ce6073f030b117de9130a5f385f0"
@@ -8862,10 +8870,10 @@ react-scripts@3.3.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-smooshpack@^0.0.62:
-  version "0.0.62"
-  resolved "https://registry.npmjs.org/react-smooshpack/-/react-smooshpack-0.0.62.tgz#95eb4d7982633a0a92ffb681cc4eb8676f6fdfa9"
-  integrity sha512-nYaomcMx+6snIJSRQbhQAdyKxYRxEtsO6BJabGP5H2xkk6Q63WT6nvNYh+l8SkcKypOeu/y6SRtHSuSPe8VJXQ==
+react-smooshpack@0.0.61:
+  version "0.0.61"
+  resolved "https://registry.npmjs.org/react-smooshpack/-/react-smooshpack-0.0.61.tgz#ebaf4cb8ca42f084d7a47f8d3625d75483597b50"
+  integrity sha512-llVvo5l/vVYE8z0g3UohqP+1Ph+UKe6ke+qTv80HEFOXDoOYN7/bHgSI2CP9F0Sxf42GpJ5V8yK+5AZAOjHhhg==
   dependencies:
     "@types/fs-extra" "^5.0.4"
     "@types/glob" "^5.0.35"
@@ -8877,7 +8885,7 @@ react-smooshpack@^0.0.62:
     react-broadcast "^0.6.2"
     react-codemirror2 "^4.0.1"
     rollup-plugin-scss "^0.4.0"
-    smooshpack "^0.0.62"
+    smooshpack "^0.0.61"
 
 react@^16.12.0:
   version "16.12.0"
@@ -9667,10 +9675,10 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smooshpack@^0.0.62:
-  version "0.0.62"
-  resolved "https://registry.npmjs.org/smooshpack/-/smooshpack-0.0.62.tgz#cb31b9f808f73de3146b050f84d044eb353b5503"
-  integrity sha512-lFuJV2f504/U78sifWy0V2FyoE/8mTgOXM4DL918ncNxAxbtu236XSCLAH3SQwXZWn0JdmRnWs/XU4+sIUVVmQ==
+smooshpack@^0.0.61:
+  version "0.0.61"
+  resolved "https://registry.npmjs.org/smooshpack/-/smooshpack-0.0.61.tgz#a5aecb8fc0db6d8e328ad5b78a1ae9a82570aa12"
+  integrity sha512-262srJIcn07qcDK3Rvz4DJZ4a9TaZPhDvCkZkjmNTvYVf3udoqOG3EEIAyElEc05dFDJdyfCAzF01apkfda12w==
   dependencies:
     codesandbox-api "0.0.23"
     codesandbox-import-utils "^1.2.3"
