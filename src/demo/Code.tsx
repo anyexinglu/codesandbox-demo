@@ -12,6 +12,7 @@ import "react-smooshpack/dist/styles.css";
 const TestCode = `import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import './index.css'
 
 export default function BasicExample() {
   return (
@@ -19,7 +20,7 @@ export default function BasicExample() {
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="red">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -84,6 +85,9 @@ const files = {
   },
   "/test.js": {
     code: "document.body.innerHTML = `<div>xxx</div>`; console.log('test')"
+  },
+  "/index.css": {
+    code: ".red { color: red }"
   },
   "/index.js": {
     code: TestCode
